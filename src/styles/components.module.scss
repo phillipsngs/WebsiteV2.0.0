@@ -1,29 +1,28 @@
-$navbar-padding: 7em;
-$navbar-margin: 4em;
-$navbar-background-color: #19191B;
+@use '../styles/var' as v;
 
-.title {
-	color: red;
+.wrapper{
+	padding: 3rem 3rem;
+}
+
+.main {
+	display: flex;
+	line-height: 3em;
 }
 
 .navbar {
 	display: flex;
 	border-radius: 40px;
-	margin-left: $navbar-margin;
-	margin-right: $navbar-margin;
-	background-color: $navbar-background-color;
-	margin-top: 3em;
-	margin-bottom: 3em;
-	height: 4.5em;
+	background-color: v.$navbar-background-color;
+	height: 5em;
 	box-shadow:  13px 13px 26px #151517,
 				-13px -13px 26px #313135;
+	margin-bottom: v.$lower-nav-margin;
 
 	ul {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding-left: $navbar-padding;
-		padding-right: $navbar-padding;
+		padding-inline: v.$navbar-padding;
 		width: 100%;
 	}
 
@@ -35,7 +34,31 @@ $navbar-background-color: #19191B;
 		text-decoration: none;
 		color: white;
 		letter-spacing: 4px;
-		font-size: 1.25em;
-		font-weight: 1000;
+		font-size: 1.5em;
+		font-weight: 600;
 	}
+}
+
+// .gradientText {
+// 	background-image: $gradient;
+// 	background-clip: text;
+// 	color: transparent;
+// }
+
+.headerText {
+	font-size: 3em;
+	font-weight: 800;
+	letter-spacing: 4px;
+	background-image: v.$gradient;
+	background-clip: text;
+	color: transparent;
+}
+
+.subHeadingText {
+	font-size: 2em;
+	font-weight: 800;
+	letter-spacing: 3px;
+	background-image: v.$gradient;
+	background-clip: text;
+	color: transparent;
 }

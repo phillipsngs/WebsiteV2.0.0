@@ -20,9 +20,6 @@ export default function Navbar(props: {}) {
 				<a href="/courses">Courses</a>
 			</li>
 			<li>
-				<a href="/tools">Tools</a>
-			</li>
-			<li>
 				<a href="/extra">Extra</a>
 			</li>
 		</ul>

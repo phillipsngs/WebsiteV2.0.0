@@ -1,35 +1,12 @@
-$primary-color: #232326;
-$secondary-color: #232326;
-$gradient: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);;
-
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-}
-
-.description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
-}
-
-.description a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-}
+@use '../styles/var' as v;
 
 html {
-	background-color: $primary-color;
+	background-color: v.$primary-color;
 }
 
+p, li {
+	color: v.$font-color;
+	letter-spacing: 4px;
+	font-weight: 100px;
+	font-size: 1.25rem;
+}

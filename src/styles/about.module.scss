@@ -1,0 +1,29 @@
+@use '../styles/var' as v;
+
+
+.gridContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-inline: v.$inline-grid-margin; 
+	margin-block: 5em;
+}
+
+.img {
+	border-radius: 90%;
+	width: 85%;
+	height: 100%;
+
+}
+
+.imgContainer {
+	border-radius: 40%;
+	// padding-inline: 25%;
+	margin-left: 35%;
+}
+
+.gridSpan1Col {
+	grid-column-start: 2; // starts the selected attribute on the 2nd line do inspect element and click on the grid annotiation next to the div container that has display: grid to show lines
+	grid-row-start: 1;
+	grid-row-end: span 3;
+}
+
