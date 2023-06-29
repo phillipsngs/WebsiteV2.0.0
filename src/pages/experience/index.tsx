@@ -9,7 +9,7 @@ export default function Experience() {
 			Newton - Software Developer (Sep 2022 - Apr 2023)
 		</h2>
 		<li>
-			Implemented python script in Django backend that would automatically subscribe/unsubscribe users designated as inactive from SendGrid. 
+			Implemented python script in Django backend that would automatically add and remove users from email service during onboarding and offboarding.
 		</li>
 		<li>
 			Completed migration of email service from Mailgun to SendGrid by porting existing emails (Pre-Authorized Debit Agreement, Large Virtual Crypto Transaction, Automatic Account Verification, Profit Helper), and writing their corresponding unit + integration tests to ensure correctness.
