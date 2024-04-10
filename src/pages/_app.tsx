@@ -11,7 +11,7 @@ const nunito = Nunito({
 
 export default function App({Component, pageProps}: AppProps) {
     return (
-        <Layout fontClass={nunito.className}>
+        <Layout className="" fontClass={nunito.className}>
             <Component {...pageProps} />
         </Layout>
     )

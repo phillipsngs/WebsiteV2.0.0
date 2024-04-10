@@ -3,10 +3,11 @@
 const path = require('path')
 
 const nextConfig = {
-  reactStrictMode: true,
-  sassOptions: {
-	includePaths: [path.join(__dirname, 'styles')],
-  },
+    reactStrictMode: true,
+    sassOptions: {
+        includePaths: [path.join(__dirname, 'styles')],
+        additionalData: `@import "src/styles/variables.scss"; @import "src/styles/mixins.scss";`,
+    },
 }
 
 module.exports = nextConfig

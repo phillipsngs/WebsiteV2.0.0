@@ -1,6 +1,6 @@
 'use client';
 import React from 'react'
-import styles from '../styles/components.module.scss'
+import styles from '@/components/Navbar.module.scss'
 import Link from 'next/link'
 
 export default function Navbar({fontClass}: any) {
