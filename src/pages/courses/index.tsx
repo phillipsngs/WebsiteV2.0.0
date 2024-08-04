@@ -1,21 +1,32 @@
 import React from 'react'
-import styles from "./Courses.module.scss"
-
+import styles from '@/pages/courses/Courses.module.scss'
 export default function index() {
     return (
-        <>
-            <div className={styles.container}>
-                <h1>Hi! I&apos;m Phillips</h1>
-                <p className="description"> hey this will show up right uh wait what i</p>
-            </div>
-            <div className={styles.container}>
-                <h1>Hi! I&apos;m Phillips</h1>
-                <p className="description"> hey this will show up right uh wait what i</p>
-            </div>
-            <div className={styles.container}>
-                <h1>Hi! I&apos;m Phillips</h1>
-                <p className="description"> hey this will show up right uh wait what i</p>
-            </div>
-        </>
+        <div className={styles.container}>
+            <h2> What have I learned? </h2>
+            <ul>
+                <li>
+                    Definition of Programming Languages
+                </li>
+                <li>
+                    Operating Systems Design and Implementation
+                </li>
+                <li>
+                    Advanced Software Engineering
+                </li>
+                <li>
+                    Distributed Systems
+                </li>
+                <li>
+                    Human Computer Interactions
+                </li>
+                <li>
+                    Applied Machine Learning
+                </li>
+                <li>
+                    Internet Computing
+                </li>
+            </ul>
+        </div>
     )
 }

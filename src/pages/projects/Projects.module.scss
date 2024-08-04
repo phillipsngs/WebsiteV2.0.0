@@ -1,0 +1,30 @@
+@import "src/styles/variables.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-inline: $default-content-padding;
+}
+
+
+.mainContainer {
+  display: flex;
+  gap: 2em;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.description {
+  margin-block: 0;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-right: 2em;
+}
+
+.img{
+  border-radius: $default-pill-radius;
+}

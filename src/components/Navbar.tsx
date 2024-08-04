@@ -7,7 +7,7 @@ export default function Navbar({fontClass}: any) {
     return (
         <div className={`${styles.navbar} ${fontClass}`}>
             <Link href="/about">About</Link>
-            <Link href="/experience">Experience</Link>
+            {/*<Link href="/experience">Experience</Link>*/}
             <Link href="/projects">Projects</Link>
             <Link href="/courses">Courses</Link>
             <Link href="/extra">Extra</Link>

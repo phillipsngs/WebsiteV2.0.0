@@ -1,18 +1,14 @@
-import Head from 'next/head'
 import { Inter } from '@next/font/google'
+import React from "react";
+import styles from "@/styles/components.module.scss";
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 	return (
 		<>
-			<Head>
-				<title>Phillips Ng</title>
-				<link rel="icon" href="#" />
-			</Head>
-			<main>
-				<p> hey this is a test</p>
-			</main>
+			<h2>Newton Software Developer - Remote</h2>
+			<p > hey this will show up right uh wait what i</p>
 		</>
 	)
 }

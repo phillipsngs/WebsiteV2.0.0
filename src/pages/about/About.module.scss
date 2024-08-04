@@ -9,24 +9,22 @@
 
 .mainContainer {
 	display: flex;
+	gap: 2em;
+}
+
+.contentContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
 }
 
 .description {
-	//border: #00C9FF 2px solid;
-	//border-radius: $default-pill-radius;
 	margin-block: 0;
-	font-size: 2em;
+	font-size: 1.25rem;
 	width: 100%;
 	margin-right: 2em;
-	
-	border-radius: $default-pill-radius;
-	background: $background-gradient;
-	box-shadow:  $box-shadow;
 }
 
 .img{
 	border-radius: $default-pill-radius;
-	background: $primary-color;
-	box-shadow:  50px 50px 100px #1b1b1e,
-	-50px -50px 100px #2b2b2e;
 }
