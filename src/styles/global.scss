@@ -21,6 +21,17 @@ h2 {
 	width: max-content;
 }
 
+h3 {
+	font-size: 2rem;
+	background: $gradient;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding-inline: 30px;
+	padding-block: 5px;
+	width: max-content;
+}
+
+
 html {
 	background-color: $primary-color;
 	color: $font-color;

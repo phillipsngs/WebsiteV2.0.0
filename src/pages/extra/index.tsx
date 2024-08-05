@@ -4,7 +4,7 @@ import styles from "@/pages/extra/Extra.module.scss";
 export default function index() {
   return (
       <div className={styles.container}>
-          <h2>What ...? You&apos;re still here? </h2>
+          <h2>What ... you&apos;re still here? </h2>
           {/*<h2>Still creeping? Here are some things I enjoy!</h2>*/}
           <h2>Pickleball</h2>
           <div className={styles.mainContainer}>
