@@ -21,7 +21,6 @@
 
 .descriptionContainer {
   margin-block: 0;
-  font-size: 1.25rem;
   //margin-right: 2em;
 }
 
@@ -34,8 +33,24 @@
 
 .imgContainer {
   margin-top: 40px;
-  width: 100%;
-  max-width: 400px;
-  max-height: 300px;
+  max-height: 350px;
   object-fit: contain;
+}
+
+.heading {
+  width: max-content;
+}
+
+@media screen and (max-width: 1000px) {
+  .gridContainer {
+    display:flex;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+  }
 }

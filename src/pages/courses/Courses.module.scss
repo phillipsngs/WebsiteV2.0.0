@@ -6,7 +6,6 @@
   padding-inline: $default-content-padding;
 }
 
-
 .mainContainer {
   display: flex;
   gap: 2em;
@@ -25,7 +24,21 @@
   margin-right: 2em;
 }
 
-.img{
+.img {
   border-radius: $default-pill-radius;
 }
 
+@media screen and (max-width: 1000px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+  }
+}

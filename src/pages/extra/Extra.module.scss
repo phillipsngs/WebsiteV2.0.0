@@ -20,11 +20,45 @@
 
 .descriptionContainer {
   margin-block: 0;
-  font-size: 1.25rem;
   width: 100%;
   margin-right: 2em;
 }
 
 .img{
   border-radius: $default-pill-radius;
+}
+
+.heading {
+  width: max-content;
+}
+
+.img {
+  border-radius: $default-pill-radius;
+  height: 100%;
+  width: 100%;
+  padding: 13px;
+}
+
+.imgContainer {
+  margin-top: 40px;
+  max-height: 350px;
+  object-fit: contain;
+}
+
+.heading {
+  width: max-content;
+}
+
+@media screen and (max-width: 1000px) {
+  .gridContainer {
+    display:flex;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+  }
 }
