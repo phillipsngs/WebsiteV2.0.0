@@ -72,40 +72,38 @@ export default function index() {
                             finding and test case generation.
                         </p>
                     </div>
-                    <div className={styles.contentContainer}>
-                        <h3>
-                            Distributed Systems
-                        </h3>
-                        <p>
-                            In this class, I studied distributed systems, their architecture, challenges, and the
-                            balance
-                            between consistency, availability, and parition tolerance.
-                        </p>
-                        <p>
-                            Some highlights were: Learning about how difficult consensus algorithms are to understand,
-                            how
-                            fault tolerance can be achieved, 2 phase commits, 3 phase commits, consistent ordering,
-                            crash
-                            consistency, byzantine fault tolerances, algorithms to detect failure, and the design
-                            process
-                            and implemention of distributed applications.
-                        </p>
-                    </div>
+                    {/*<div className={styles.contentContainer}>*/}
+                    {/*    <h3>*/}
+                    {/*        Distributed Systems*/}
+                    {/*    </h3>*/}
+                    {/*    <p>*/}
+                    {/*        In this class, I studied distributed systems, their architecture, challenges, and the*/}
+                    {/*        balance*/}
+                    {/*        between consistency, availability, and parition tolerance.*/}
+                    {/*    </p>*/}
+                    {/*    <p>*/}
+                    {/*        Some highlights were: Learning about how difficult consensus algorithms are to understand,*/}
+                    {/*        how*/}
+                    {/*        fault tolerance can be achieved, 2 phase commits, 3 phase commits, consistent ordering,*/}
+                    {/*        crash*/}
+                    {/*        consistency, byzantine fault tolerances, algorithms to detect failure, and the design*/}
+                    {/*        process*/}
+                    {/*        and implemention of distributed applications.*/}
+                    {/*    </p>*/}
+                    {/*</div>*/}
                     <div className={styles.contentContainer}>
                         <h3>
                             Human Computer Interactions
                         </h3>
                         <p>
-                            In this class, I studied user experience and user interface principles and how to survey
-                            users
-                            to determine whether an application provides an ideal user experience.
+                            In this class, I studied user experience and user interface principles, techniques to evaluate
+                            users experiences, prototyping techniques, and how design decisions can influence a user&apos;s
+                            ability to use a product.
                         </p>
                         <p>
-                            Some highlights were: Learning about how we can leverage common human experiences to design
-                            an
-                            application that a user can quickly grasp due to familiarity, triangulation, surveying, and
-                            data
-                            analysis.
+                            Some highlights were: Learning about how we can leverage popular human experiences in design
+                            to make more intuitive interfaces that a user can easily navigate, using triangulation to find
+                            find common prototyping pitfalls, surveying techniques, and results analysis.
                         </p>
                     </div>
                     <div className={styles.contentContainer}>
@@ -113,14 +111,14 @@ export default function index() {
                             Applied Machine Learning
                         </h3>
                         <p>
-                            In this class, I studied the application of machine learning is, the different domains of
-                            machine learning, linear vs regression models, etc...
+                            In this class, I studied the application of machine learning, what machine learning is,
+                            the different domains of machine learning, linear vs regression models, how to evaluate and
+                            optimize models, how to deal with class imbalance, and feature engineering.
                         </p>
                         <p>
                             Some highlights were: hyperparameter optimization, neural networks, deep learning, time
-                            series
-                            analysis, class imbalances, preprocessing pipelines, decision trees, survival-analysis,
-                            feature-engineering, regression-metrics, and clustering algorithms, recommender systems.
+                            series analysis, class imbalances, preprocessing pipelines, decision trees, survival-analysis,
+                            feature-engineering, regression-metrics, clustering algorithms, and recommender systems.
                         </p>
                     </div>
                     <div className={styles.contentContainer}>
@@ -129,12 +127,12 @@ export default function index() {
                         </h3>
                         <p>
                             In this class, I studied all things internet. How the internet works, history of IP
-                            addresses
-                            and how they working, OSI model, transport protocols, TCP vs UDP, and security.
+                            addresses and how they working, OSI model, transport protocols, TCP vs UDP, and security.
+                            The 5 layers of the internet.
                         </p>
                         <p>
-                            Some highlights were: motivation of IPV4 and IPv6, selection repeat, go back n, nat routers,
-                            security.
+                            Some highlights were: motivation of IPV4 and IPv6, selective repeat, go back n, nat routers,
+                            security, protocols, and finite state machines.
                         </p>
                     </div>
                 </div>

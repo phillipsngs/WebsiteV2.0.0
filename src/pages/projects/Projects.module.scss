@@ -26,20 +26,31 @@
 
 .img {
   border-radius: $default-pill-radius;
-  height: 100%;
-  width: 100%;
-  padding: 13px;
+  height: 350px;
+  width: 300px;
 }
 
 .imgContainer {
-  margin-top: 40px;
-  max-height: 350px;
-  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
 .heading {
   width: max-content;
+  padding-right: 15px;
 }
+
+.titleContainer {
+  display: flex;
+  align-items: center
+}
+
+.link {
+  display: inline-flex;
+}
+
 
 @media screen and (max-width: 1000px) {
   .gridContainer {
@@ -51,6 +62,6 @@
   .gridContainer {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 10px;
+    gap: 15px;
   }
 }

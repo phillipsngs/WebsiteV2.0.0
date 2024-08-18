@@ -26,14 +26,30 @@
 
 .img {
 	border-radius: $default-pill-radius;
-	height: 100%;
-	width: 100%;
-	padding: 13px;
+	height: 350px;
+	width: 300px;
 }
 
 .imgContainer {
-	max-height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	object-fit: contain;
+}
+
+.infoContainer {
+	display: flex;
+	align-items: center;
+	//justify-content: center;
+}
+
+.iconsContainer {
+	width: 55%;
+	justify-content: space-between;
+}
+
+.link {
+	display: inline-flex;
 }
 
 @media screen and (max-width: 1000px) {

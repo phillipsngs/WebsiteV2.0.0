@@ -34,15 +34,15 @@
 
 .img {
   border-radius: $default-pill-radius;
-  height: 100%;
-  width: 100%;
-  padding: 13px;
+  height: 300px;
+  width: 250px;
+  margin-top: 33px;
 }
 
 .imgContainer {
-  margin-top: 40px;
-  max-height: 350px;
-  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .heading {

@@ -27,7 +27,24 @@ $navbar-background-color: #19191B;
 			letter-spacing: 0.07em;
 			font-size: 25px;
 			font-weight: 1000;
+			position: relative
 		}
+
+		a:after {
+			content: "";
+			position: absolute;
+			background: $gradient;
+			height: 3px;
+			width: 0;
+			left: 0;
+			bottom: 1px;
+			transition: 0.3s;
+		}
+
+		a:hover:after{
+			width: 100%;
+		}
+
 	}
 }
 
@@ -53,8 +70,23 @@ $navbar-background-color: #19191B;
 			font-size: 25px;
 			font-weight: 1000;
 			margin-block: 100px;
+			position: relative;
+		}
+
+		a:after {
+			content: "";
+			position: absolute;
+			background: $gradient;
+			height: 4px;
+			width: 0;
+			left: 0;
+			bottom: 1px;
+			transition: 0.3s;
+		}
+
+		a:hover:after{
+			width: 100%;
 		}
 	}
 
 }
-
