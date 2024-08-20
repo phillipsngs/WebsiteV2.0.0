@@ -7,18 +7,33 @@ export default function index() {
             <div className={styles.container}>
                 <h2> What have I learned? </h2>
                 <div className={styles.gridContainer}>
-
+                    <div className={styles.contentContainer}>
+                        <h3>
+                            Human Computer Interactions
+                        </h3>
+                        <p>
+                            In this class, I studied user experience and user interface principles, techniques to
+                            evaluate
+                            users experiences, prototyping techniques, and how design decisions can influence a
+                            user&apos;s
+                            ability to use a product.
+                        </p>
+                        <p>
+                            Some highlights were: Learning about how we can leverage popular human experiences in design
+                            to make more intuitive interfaces that a user can easily navigate, using triangulation to
+                            find
+                            find common prototyping pitfalls, surveying techniques, and results analysis.
+                        </p>
+                    </div>
                     <div className={styles.contentContainer}>
                         <div className={styles.card}>
                             <h3>
                                 Definition of Programming Languages
                             </h3>
                             <p>
-                                In this class, I studied how programming languages work, how they let us say the things
-                                they
-                                let us say, what different design features languages can have, and how those features
-                                fit
-                                together
+                                In this class, I studied how programming languages work, how they let programmers
+                                say the things they let want to say, what different design features languages can have,
+                                how those features work together, and
                             </p>
                             <p>
                                 Some highlights were: exploring language behaviour by crafting interpreters, comparing
@@ -72,40 +87,6 @@ export default function index() {
                             finding and test case generation.
                         </p>
                     </div>
-                    {/*<div className={styles.contentContainer}>*/}
-                    {/*    <h3>*/}
-                    {/*        Distributed Systems*/}
-                    {/*    </h3>*/}
-                    {/*    <p>*/}
-                    {/*        In this class, I studied distributed systems, their architecture, challenges, and the*/}
-                    {/*        balance*/}
-                    {/*        between consistency, availability, and parition tolerance.*/}
-                    {/*    </p>*/}
-                    {/*    <p>*/}
-                    {/*        Some highlights were: Learning about how difficult consensus algorithms are to understand,*/}
-                    {/*        how*/}
-                    {/*        fault tolerance can be achieved, 2 phase commits, 3 phase commits, consistent ordering,*/}
-                    {/*        crash*/}
-                    {/*        consistency, byzantine fault tolerances, algorithms to detect failure, and the design*/}
-                    {/*        process*/}
-                    {/*        and implemention of distributed applications.*/}
-                    {/*    </p>*/}
-                    {/*</div>*/}
-                    <div className={styles.contentContainer}>
-                        <h3>
-                            Human Computer Interactions
-                        </h3>
-                        <p>
-                            In this class, I studied user experience and user interface principles, techniques to evaluate
-                            users experiences, prototyping techniques, and how design decisions can influence a user&apos;s
-                            ability to use a product.
-                        </p>
-                        <p>
-                            Some highlights were: Learning about how we can leverage popular human experiences in design
-                            to make more intuitive interfaces that a user can easily navigate, using triangulation to find
-                            find common prototyping pitfalls, surveying techniques, and results analysis.
-                        </p>
-                    </div>
                     <div className={styles.contentContainer}>
                         <h3>
                             Applied Machine Learning
@@ -117,7 +98,8 @@ export default function index() {
                         </p>
                         <p>
                             Some highlights were: hyperparameter optimization, neural networks, deep learning, time
-                            series analysis, class imbalances, preprocessing pipelines, decision trees, survival-analysis,
+                            series analysis, class imbalances, preprocessing pipelines, decision trees,
+                            survival-analysis,
                             feature-engineering, regression-metrics, clustering algorithms, and recommender systems.
                         </p>
                     </div>

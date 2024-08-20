@@ -17,7 +17,7 @@ export default function index() {
                         implemented a push notification microservice, completed an email migration project, automated
                         off boarding processes, and helped with various bugfixes along the way.</p>
                     <p className={styles.description}>
-                        I really enjoy full stack development! The most memorable courses I&apos;ve taken are: Definition of
+                         The most memorable courses I&apos;ve taken are: Definition of
                         Programming Languages, Internet Computing, Operating Systems Design and Implementation, and
                         Advanced Software Engineering. These classes play a significant role in shaping my skills as a
                         software developer.

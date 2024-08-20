@@ -32,6 +32,7 @@
   .gridContainer {
     display: grid;
     grid-template-columns: 1fr;
+    //grid-auto-rows: max-content;
   }
 }
 
@@ -39,6 +40,7 @@
   .gridContainer {
     display: grid;
     grid-template-columns: 50% 50%;
+    //grid-auto-rows: max-content;
     gap: 10px;
   }
 }

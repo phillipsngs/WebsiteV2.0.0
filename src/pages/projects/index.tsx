@@ -24,9 +24,9 @@ export default function index() {
                         computer.
                     </p>
                     <p className={styles.descriptionContainer}>
-                        File central is a mini project I created after I built a desktop computer. I found myself
-                        wanting to send files between my phone and laptop and grew tired of using email/google drive
-                        so thought  it would be fun to build a local app to handle this. Originally, the project used html,
+                        File central is a mini project I created after I built my desktop computer. I found myself
+                        wanting to send files from my phone and laptop to my desktop, and grew tired of using email/google drive
+                        so I thought it would be fun to build a local app to handle this. Originally, the project used html,
                         but  as someone that cares about aesthetics I decided I would add a react + bootstrap frontend.
                     </p>
                     <p className={styles.descriptionContainer}>
@@ -104,7 +104,7 @@ export default function index() {
                         finances. Users can add a category and a budget, for example groceries $200. As the weeks go on
                         they would record how much they spent and would see when or if they have gone over the budgets
                         they allocated for the month.</p>
-                    <p className={styles.descriptionContainer}> Prior to this app, I was mainly doing frontend work using
+                    <p className={styles.descriptionContainer}> Prior to this app, I was doing frontend work using
                         plain HTML. Expense tracker was a chance for me to learn React and all the powers it gives developers.</p>
                     <p className={styles.descriptionContainer}>
                         Technologies: React
