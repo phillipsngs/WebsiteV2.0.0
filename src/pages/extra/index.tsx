@@ -25,8 +25,10 @@ export default function index() {
                     <h3 className={styles.heading}>Tennis</h3>
                     <div className={styles.mainContainer}>
                         <p className={styles.description}> For whatever reason I started playing tennis in the summer of
-                            2021 and have been playing on and off ever since. Surprisingly enough, my backhand is far more consistent
-                            than my forehand. There is still much work to be done to improve footwork, timing, and forehand!</p>
+                            2021 and have been playing on and off ever since. Surprisingly enough, my backhand is far
+                            more consistent
+                            than my forehand. There is still much work to be done to improve footwork, timing, and
+                            forehand!</p>
                     </div>
                 </div>
                 <div className={styles.imgContainer}>
@@ -38,9 +40,12 @@ export default function index() {
                     <h3 className={styles.heading}>Chess</h3>
                     <div className={styles.mainContainer}>
                         <p className={styles.description}>
-                            I started playing chess when covid started. Around this time chess.com was hosting many chess events
-                            that live streamers from twitch were participating in. Chess streams were streaming the lessons they got
-                            with trained players which was very interesting to watch. I prefer playing 5 minute games with 5 second increments. I mainly play the
+                            I started playing chess when covid started. Around this time chess.com was hosting many
+                            chess events
+                            that live streamers from twitch were participating in. Chess streamwes were streaming the
+                            lessons they got
+                            with grand masters which was very interesting to watch. I prefer playing 5 minute games with
+                            5 second increments. I mainly play the
                             italian as white, and the french as black!</p>
                     </div>
                 </div>
