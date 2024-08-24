@@ -1,10 +1,12 @@
 @import "src/styles/variables.scss";
 
-.container {
+.container :global {
   display: flex;
   flex-direction: column;
   padding-inline: $default-content-padding;
   gap: 2em;
+  animation-name: fadeIn;
+  animation-duration: $animation-duration;
 }
 
 
@@ -49,6 +51,10 @@
 
 .link {
   display: inline-flex;
+}
+
+.link:hover {
+  transform: scale(1.2);
 }
 
 

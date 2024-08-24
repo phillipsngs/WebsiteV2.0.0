@@ -1,9 +1,11 @@
 @import "src/styles/variables.scss";
 
-.container {
+.container :global {
   display: flex;
   flex-direction: column;
   padding-inline: $default-content-padding;
+  animation-name: fadeIn;
+  animation-duration: $animation-duration;
 }
 
 .mainContainer {
