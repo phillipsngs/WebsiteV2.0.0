@@ -3,6 +3,7 @@ import styles from "@/pages/extra/Extra.module.scss";
 import Image from "next/image";
 import tennis_pic from "@/assets/images/tennis.jpg";
 import chess_pic from "@/assets/images/chess.png"
+import pickleball_pic from "@/assets/images/pickleball.jpg"
 
 export default function index() {
     return (
@@ -18,6 +19,9 @@ export default function index() {
                             is a lot of fun. Many people prefer playing doubles, but I really enjoy playing singles
                             with my friend! She really makes me run around the entire court to hit the ball. </p>
                     </div>
+                </div>
+                <div className={styles.imgContainer}>
+                    <Image src={pickleball_pic} className={styles.img} alt="picture of me playing pickleball"/>
                 </div>
             </div>
             <div className={styles.gridContainer}>
